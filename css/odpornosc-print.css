@@ -1,0 +1,96 @@
+
+body.print {
+    font-size: 14px;
+}
+
+body.print #content h3.strong {
+    font-size: 17px;
+}
+
+body.print #content h2 cite {
+    font-size: 13px;
+}
+
+body.print,
+body.print #main,
+body.print #main #wrapper,
+body.print #content h2,
+body.print #footer,
+body.print #wrapper #content ul.list li,
+body.print #top #logo,
+body.print #top #logo a {
+    background: #ffffff;
+    color: #000000;
+    margin: 0;
+}
+
+body.print #content h2 {
+    line-height: normal;
+}
+
+body.print #content h2 span {
+    padding: 0 0 65px 0;
+    background: none;
+    font-size: 27px;
+    line-height: normal;
+}
+
+body.print #menu,
+body.print #tabs,
+body.print #people,
+body.print #content div.column-right,
+body.print #content div.column-right-narrow,
+body.print #footer ul,
+body.print a.print,
+body.print #push {
+    display: none;
+}
+
+body.print,
+body.print #main,
+body.print #wrapper,
+body.print #content,
+body.print #top,
+body.print #content div.column-left,
+body.print #content div.column-left-wide,
+body.print #footer,
+body.print #footer div.content {
+    width: 100%;
+    padding: 0;
+}
+
+body.print #top {
+    height: 174px;
+}
+
+body.print #top #logo,
+body.print #top #logo a {
+    text-indent: -1000em;
+    color: transparent;
+}
+
+body.print #top #logo img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 188px;
+    height: 130px;
+    z-index: 1000;
+}
+
+body.print,
+body.print #main,
+body.print #wrapper {
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    position: relative;
+}
+
+body.print #footer address {
+    padding: 15px 0;
+}
+
+body.print #footer div.content a.baxterlogo {
+    margin: 0;
+}
